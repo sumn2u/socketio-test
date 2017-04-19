@@ -1,4 +1,4 @@
-# Socket.io Test and Coverage
+# Socket.io Test Cases,Coverage and CI
 ## Introduction
 
 Writing code testing the interactions of multiple clients for Socket.io quickly leads to a messy nest of connect callbacks and setTimeout calls.  Socket-tester handles all the repetitive boilerplate of setting up client connections, setting up event handlers, and tearing down connections after the tests are run.  Its syntax is flat, concise and easy to use without having to manage nested connect statements. It also includes a number of flexible helper functions that test for the most common use cases.
